@@ -1,0 +1,22 @@
+<div class='page-header'>
+  <h1><%= @location.title %></h1>
+</div>
+
+<div class='row'>
+  <div class='col-lg-6'>
+    <h4>Description</h4>
+    <p><%= @location.description %></p>
+
+    <h4>Address</h4>
+    <p><%= @location.address %></p>
+  </div>
+
+  <div class='col-lg-6'>
+  <%= render 'google_map', location: @location %>
+  </div>
+</div>
+
+<div class='well'>
+  <%= link_to 'Edit', edit_location_path(@location), class: 'btn btn-primary' %> |
+  <%= link_to 'Back', locations_path %>
+</div>

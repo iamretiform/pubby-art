@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Millennium%20Park,%20Chicago&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 15 Mar 2017 20:34:54 GMT
+      Expires:
+      - Thu, 16 Mar 2017 20:34:54 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '583'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '186'
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "establishment", "park", "point_of_interest" ]
+                    },
+                    {
+                       "long_name" : "201",
+                       "short_name" : "201",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "East Randolph Street",
+                       "short_name" : "E Randolph St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Chicago",
+                       "short_name" : "Chicago",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Cook County",
+                       "short_name" : "Cook County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Illinois",
+                       "short_name" : "IL",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "60602",
+                       "short_name" : "60602",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Millennium Park, 201 E Randolph St, Chicago, IL 60602, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 41.8825524,
+                       "lng" : -87.62255139999999
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 41.8839013802915,
+                          "lng" : -87.6212024197085
+                       },
+                       "southwest" : {
+                          "lat" : 41.88120341970851,
+                          "lng" : -87.6239003802915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJA5xPiqYsDogRBBCptdwsGEQ",
+                 "types" : [ "establishment", "park", "point_of_interest" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 15 Mar 2017 20:38:00 GMT
+recorded_with: VCR 3.0.3

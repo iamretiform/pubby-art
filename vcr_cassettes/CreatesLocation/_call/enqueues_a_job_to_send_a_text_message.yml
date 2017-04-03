@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Millennium%20Park,%20Chicago&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 29 Mar 2017 14:43:05 GMT
+      Expires:
+      - Thu, 30 Mar 2017 14:43:05 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '583'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '21360'
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "establishment", "park", "point_of_interest" ]
+                    },
+                    {
+                       "long_name" : "201",
+                       "short_name" : "201",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "East Randolph Street",
+                       "short_name" : "E Randolph St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Chicago",
+                       "short_name" : "Chicago",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Cook County",
+                       "short_name" : "Cook County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Illinois",
+                       "short_name" : "IL",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "60602",
+                       "short_name" : "60602",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Millennium Park, 201 E Randolph St, Chicago, IL 60602, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 41.8825524,
+                       "lng" : -87.62255139999999
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 41.8839013802915,
+                          "lng" : -87.6212024197085
+                       },
+                       "southwest" : {
+                          "lat" : 41.88120341970851,
+                          "lng" : -87.6239003802915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJA5xPiqYsDogRBBCptdwsGEQ",
+                 "types" : [ "establishment", "park", "point_of_interest" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 20:39:05 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Millennium%20Park,%20Chicago&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 29 Mar 2017 14:43:05 GMT
+      Expires:
+      - Thu, 30 Mar 2017 14:43:05 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '583'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - public, max-age=86400
+      Age:
+      - '21360'
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "establishment", "park", "point_of_interest" ]
+                    },
+                    {
+                       "long_name" : "201",
+                       "short_name" : "201",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "East Randolph Street",
+                       "short_name" : "E Randolph St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Millennium Park",
+                       "short_name" : "Millennium Park",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Chicago",
+                       "short_name" : "Chicago",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Cook County",
+                       "short_name" : "Cook County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Illinois",
+                       "short_name" : "IL",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "60602",
+                       "short_name" : "60602",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Millennium Park, 201 E Randolph St, Chicago, IL 60602, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 41.8825524,
+                       "lng" : -87.62255139999999
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 41.8839013802915,
+                          "lng" : -87.6212024197085
+                       },
+                       "southwest" : {
+                          "lat" : 41.88120341970851,
+                          "lng" : -87.6239003802915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJA5xPiqYsDogRBBCptdwsGEQ",
+                 "types" : [ "establishment", "park", "point_of_interest" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 20:39:05 GMT
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/ACe5ad25bfc3c440ec67d5c91c00730f69/Messages.json
+    body:
+      encoding: US-ASCII
+      string: From=15005550006&To=8152286924&Body=The+location+%27The+Bean%27+was+just+added.+Go+vet+it%21
+    headers:
+      Accept:
+      - application/json
+      Accept-Charset:
+      - utf-8
+      User-Agent:
+      - twilio-ruby/4.13.0 (ruby/x86_64-darwin16 2.4.0-p0)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Authorization:
+      - Basic QUNlNWFkMjViZmMzYzQ0MGVjNjdkNWM5MWMwMDczMGY2OToyZDA5YTAxNGZiM2VlZjMyMmRmNjljN2I1MjQ3MjdmNg==
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 29 Mar 2017 20:39:05 GMT
+      Strict-Transport-Security:
+      - max-age=15768000
+      Twilio-Request-Duration:
+      - '0.066'
+      Twilio-Request-Id:
+      - RQ5f057d39601540418b17318ea526686c
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '851'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SM83a5395712a24892a80b21a1c5ee6c8b", "date_created": "Wed,
+        29 Mar 2017 20:39:05 +0000", "date_updated": "Wed, 29 Mar 2017 20:39:05 +0000",
+        "date_sent": null, "account_sid": "ACe5ad25bfc3c440ec67d5c91c00730f69", "to":
+        "+18152286924", "from": "15005550006", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - The location ''The Bean'' was just
+        added. Go vet it!", "status": "queued", "num_segments": "1", "num_media":
+        "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null,
+        "price_unit": "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/ACe5ad25bfc3c440ec67d5c91c00730f69/Messages/SM83a5395712a24892a80b21a1c5ee6c8b.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/ACe5ad25bfc3c440ec67d5c91c00730f69/Messages/SM83a5395712a24892a80b21a1c5ee6c8b/Media.json"}}'
+    http_version: 
+  recorded_at: Wed, 29 Mar 2017 20:39:05 GMT
+recorded_with: VCR 3.0.3
